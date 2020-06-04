@@ -1,7 +1,7 @@
 class GreeterController < ApplicationController
   def hello
   end
-  def goodbye()
+  def goodbye
 
   end
 end

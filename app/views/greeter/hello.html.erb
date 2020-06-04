@@ -1,14 +1,15 @@
 <h1>Greeter#hello</h1>
 <p>Find me in app/views/greeter/hello.html.erb</p>
-<% fill = ["p","r","a","s","a","d"] %>
+<% fill = ["p","r","a","s","d"] %>
 <h6>
   <%= fill.sample %>
 
 </h6>
 <h1>
   <%= Time.now() %>
+   <br>
+  <%= link_to "End",goodbye_path %>
+  <br>
+  <%= link_to "Go to Google","https://www.google.com" %>
 
-  <%= link_to "Google","http://www.google.co.in" %>
-  <%= link_to "end of page", greeter_goodbye_path
-  %>
 </h1>
